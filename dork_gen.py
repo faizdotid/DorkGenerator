@@ -1,3 +1,4 @@
+#simple dork generator from file
 def splitss(text: str) -> list:
     _textsplit = text.split(' ')
     __textsplit = list(dict.fromkeys(_textsplit))
